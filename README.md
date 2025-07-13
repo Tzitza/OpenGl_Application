@@ -97,14 +97,14 @@ Normal Calculation: Proper surface normals for lighting calculations
 Assignment Requirements
 This project fulfills all requirements for the OpenGL Graphics course assignment:
 
-✅ 2D and 3D shape rendering (20 points)
-✅ Color selection and default settings (20 points)
-✅ Rotation control and exit functionality (20 points)
-✅ Scaling functionality (5 points)
-✅ Movement with boundary checking (10 points)
-✅ User information display (5 points)
-✅ Right-click menu system (10 points)
-✅ 3D lighting implementation (10 points)
+2D and 3D shape rendering (20 points)
+Color selection and default settings (20 points)
+Rotation control and exit functionality (20 points)
+Scaling functionality (5 points)
+Movement with boundary checking (10 points)
+User information display (5 points)
+Right-click menu system (10 points)
+3D lighting implementation (10 points)
 
 Troubleshooting
 Common Issues
