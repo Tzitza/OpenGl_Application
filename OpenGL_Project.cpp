@@ -361,39 +361,3 @@ void createMenu() {
     glutAttachMenu(GLUT_RIGHT_BUTTON);
 }
 
-// Η κύρια συνάρτηση του προγράμματος
-int main(int argc, char** argv) {
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
-    glutInitWindowSize(800, 800);
-    glutCreateWindow("ERGASIA");
-    glutDisplayFunc(display);
-    glutKeyboardFunc(keyboard);
-    glutSpecialFunc(specialKeys);
-    glutIdleFunc(idle);
-    createMenu();
-    glClearColor(0.9f, 0.9f, 0.9f, 1.0f);  // Ανοιχτό γκρι φόντο
-    glEnable(GL_DEPTH_TEST);
-    
-    glMatrixMode(GL_PROJECTION);
-    glLoadIdentity();
-    gluPerspective(45.0, 1.0, 1.0, 100.0);
-
-    glMatrixMode(GL_MODELVIEW);
-    glLoadIdentity();
-    glTranslatef(0.0f, 0.0f, -8.0f);
-    
-    // Απλοποιημένη ρύθμιση φωτισμού
-    GLfloat lightPos[] = { 5.0f, 5.0f, 5.0f, 1.0f };
-    GLfloat ambLight[] = { 0.3f, 0.3f, 0.3f, 1.0f };
-    GLfloat diffLight[] = { 0.7f, 0.7f, 0.7f, 1.0f };
-    
-    glLightfv(GL_LIGHT0, GL_POSITION, lightPos);
-    glLightfv(GL_LIGHT0, GL_AMBIENT, ambLight);
-    glLightfv(GL_LIGHT0, GL_DIFFUSE, diffLight);
-    
-    glEnable(GL_LIGHT0);
-    
-    glutMainLoop();
-    return 0;
-}
