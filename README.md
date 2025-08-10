@@ -117,5 +117,3 @@ This project fulfills all requirements for the OpenGL Graphics course assignment
 - **Windows**: Ensure proper DLL files are in the executable directory
 - **macOS**: Use `#include <GLUT/glut.h>` instead of `#include <GL/glut.h>`
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
