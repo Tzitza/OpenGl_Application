@@ -395,5 +395,6 @@ int main(int argc, char** argv) {
     glEnable(GL_LIGHT0);
     
     glutMainLoop();
-    return 0;
+    
 }
+
