@@ -1,4 +1,4 @@
-.# OpenGL 3D Graphics Project
+# OpenGL 3D Graphics Project
 A comprehensive OpenGL application built with FreeGLUT that renders both 2D and 3D geometric shapes with interactive controls, lighting, and transformations.
 
 ## Features
