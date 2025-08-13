@@ -1,4 +1,4 @@
-/*This program is a simple OpenGL application that allows the user to draw and manipulate 2D and 3D shapes with various colors and transformations.
+./*This program is a simple OpenGL application that allows the user to draw and manipulate 2D and 3D shapes with various colors and transformations.
  * It uses the FreeGLUT library for window management and input handling.
  * The program supports basic shapes like rectangles, hexagons, circles, cubes, pyramids, and spheres.
  * Users can change the shape, color, and apply transformations like rotation and scaling.
@@ -397,5 +397,6 @@ int main(int argc, char** argv) {
     glutMainLoop();
     return 0;
 }
+
 
 
